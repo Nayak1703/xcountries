@@ -27,7 +27,9 @@ const Xcountries = () => {
             <img src={country.flag} alt={country.name} />
           </div>
 
-          <p>{country.name}</p>
+          <p>
+            <b>{country.name}</b>
+          </p>
         </div>
       ))}
     </div>

@@ -1,10 +1,10 @@
 .countryListParent {
-  width: 100vw;
   min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   align-items: center;
+  justify-content: center;
   padding: 30px;
 }
 
