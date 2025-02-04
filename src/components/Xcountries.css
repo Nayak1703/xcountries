@@ -1,0 +1,31 @@
+.countryListParent {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  padding: 30px;
+}
+
+.country {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 7px;
+}
+
+.countryImgDiv {
+  width: 90%;
+  height: 60%;
+}
+
+.countryImgDiv img {
+  width: 100%;
+  height: 100%;
+}
