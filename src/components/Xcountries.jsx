@@ -11,7 +11,7 @@ const Xcountries = () => {
       const data = await response.json();
       SetCountryList(data);
     } catch (error) {
-      console.error(error);
+      console.error("Error fetching data:", error);
     }
   };
 
